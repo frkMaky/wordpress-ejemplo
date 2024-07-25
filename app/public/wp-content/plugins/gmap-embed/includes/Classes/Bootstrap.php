@@ -30,7 +30,7 @@ class Bootstrap
 	private static $instance = null;
 	private $plugin_name     = 'WP Google Map';
 	private $plugin_slug     = 'gmap-embed';
-	public $wpgmap_api_key   = 'AIzaSyD79uz_fsapIldhWBl0NqYHHGBWkxlabro';
+	public $wpgmap_api_key   = ''; // TU API KEY DE GOOGLE MAPS
 	private $capability   = 'manage_options';
 
 	public function __construct()
